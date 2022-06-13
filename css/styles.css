@@ -1,0 +1,158 @@
+body{
+  text-align: center;
+  font-family: Lucida Sans Typewriter, sans-serif;
+  font-weight: lighter;
+  background-color: #EDEDED;
+  color: #171717;
+  ;
+}
+
+a{
+  color: #171717;
+  text-decoration:none;
+}
+
+.footer-link{
+  color: #171717;
+  text-decoration:none;
+  margin: 30px 10px auto 10px;
+}
+
+h1{
+  font-family: Another Typewriter, sans-serif;
+  color: #DA0037;
+  letter-spacing: 10px;
+  width: 50%;
+  font-size: 7rem;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.works{
+  font-family: Another Typewriter, sans-serif;
+  color: #C84B31;
+  letter-spacing: 10px;
+  width: 50%;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0 auto  30px auto;
+}
+
+h2{
+  padding-top: 20px;
+
+  color: #444444;
+  letter-spacing: 5px;
+  font-family: Another Typewriter, sans-serif;
+  width: 50%;
+  font-weight: normal;
+  margin: 0 auto;
+
+}
+h3{
+  color: #444444;
+  letter-spacing: 5px;
+  font-family: Another Typewriter, sans-serif;
+  width: 50%;
+  font-weight: normal;
+  margin: 0 auto;
+
+}
+
+p{
+  font-size: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  color: #171717;
+
+}
+.camra{
+
+}
+.stuff{
+  text-decoration: underline;
+}
+.topcontainter{
+  position : abosolute;
+  background: url(images/camra.gif) no-repeat center 100px;
+  background-size: 400px auto;
+  position: relative;
+  padding-top: 100px;
+  background-color: transparent;
+
+}
+
+.skills{
+  text-align: left;
+}
+
+
+.TN{
+  width: 50%;
+  Height 50%;
+}
+
+.TN:hover{
+  width: 70%;
+  Height 70%;
+}
+
+.middlecontainter{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.bottomcontainter{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.topcloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomcloud{
+  position: absolute;
+  left: 300px;
+  bottom: : 50px;
+  padding-bottom: 20px
+}
+
+.profile{
+
+}
+.contact-me{
+  padding-bottom: 30px;
+}
+
+
+
+.btn {
+    padding-bottom: 20px;  background: #DA0037;
+  background-image: -webkit-linear-gradient(top, #DA0037, #DA0037);
+  background-image: -moz-linear-gradient(top, #DA0037, #DA0037);
+  background-image: -ms-linear-gradient(top, #DA0037, #DA0037);
+  background-image: -o-linear-gradient(top, #DA0037, #DA0037);
+  background-image: linear-gradient(to bottom, #DA0037, #DA0037);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b5143f;
+  background-image: -webkit-linear-gradient(top, #b5143f, #b5143f);
+  background-image: -moz-linear-gradient(top, #b5143f, #b5143f);
+  background-image: -ms-linear-gradient(top, #b5143f, #b5143f);
+  background-image: -o-linear-gradient(top, #b5143f, #b5143f);
+  background-image: linear-gradient(to bottom, #b5143f, #b5143f);
+  text-decoration: none;
+}
