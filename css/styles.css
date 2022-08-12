@@ -1,35 +1,92 @@
+
+
+
+h1{
+  font-family: Another Typewriter, sans-serif;
+  display: ;
+
+
+  font-style:;
+  color: #E4D2C8;
+  letter-spacing: 10px;
+  width: 70%;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 auto 0;
+  border: 0 0 0 0;c
+  padding: 0 0 0 0;
+}
+
+
+.wel{
+  vertical-align: top;
+  margin: 0 auto 0;
+  font-size: 16rem;
+  text-align: center;
+}
+
+
+h3{
+  padding: 0 0 0 0;
+  border: 0 0 0 0;
+  padding-top: 20px;
+  font-size:20px;
+  color: #E4D2C8;
+  letter-spacing: 5px;
+  font-family: Another Typewriter, sans-serif;
+  width: 50%;
+  font-weight: normal;
+  margin: 0 auto;
+
+
+
+}
+
+h2{
+  color: #E4D2C8;
+  letter-spacing: 5px;
+  font-family: Another Typewriter, sans-serif;
+  width: 50%;
+  font-weight: normal;
+  margin: 0 auto;
+
+}
+
 body{
   text-align: center;
-  font-family: Lucida Sans Typewriter, sans-serif;
-  font-weight: lighter;
-  background-color: #EDEDED;
-  color: #171717;
-  ;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  background-color: #163355;
+  color: ##E4D2C8;
+
+}
+
+p{
+  font-style:bold;
+  font-size: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  color: #BD9FB8;
+
 }
 
 a{
-  color: #171717;
+  color: #E4D2C8;
   text-decoration:none;
 }
 
 .footer-link{
-  color: #171717;
+  color: #E4D2C8;;
   text-decoration:none;
   margin: 30px 10px auto 10px;
 }
 
-h1{
-  font-family: Another Typewriter, sans-serif;
-  color: #DA0037;
-  letter-spacing: 10px;
-  width: 50%;
-  font-size: 7rem;
-  font-weight: normal;
-  margin: 0 auto;
-}
+
 .works{
-  font-family: Another Typewriter, sans-serif;
-  color: #C84B31;
+  font-family: Courier New, sans-serif;
+  color: #E4D2C8;
   letter-spacing: 10px;
   width: 50%;
   font-size: 3rem;
@@ -37,49 +94,48 @@ h1{
   margin: 0 auto  30px auto;
 }
 
-h2{
-  padding-top: 20px;
-
-  color: #444444;
-  letter-spacing: 5px;
-  font-family: Another Typewriter, sans-serif;
-  width: 50%;
-  font-weight: normal;
-  margin: 0 auto;
-
-}
-h3{
-  color: #444444;
-  letter-spacing: 5px;
-  font-family: Another Typewriter, sans-serif;
-  width: 50%;
-  font-weight: normal;
-  margin: 0 auto;
-
+#894D42
+#163355
+#E4D2C8
+#BD9FB8
+#E97F45
+.red {
+    outline: 100px solid rgba(255, 0, 0, 0.5) !important;
+    outline-offset: -100px;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    width: 200px;
 }
 
-p{
-  font-size: 20px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  color: #171717;
+img{
+  margin: 10px 10px 20px 10px;
+}
+
+.vid {
+    filter:  contrast(33%) invert(0%) sepia(93%) saturate(260%) hue-rotate(178deg) brightness(30%) ;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
 
 }
+
+
+
 .camra{
-
-}
+6}
 .stuff{
   text-decoration: underline;
 }
-.topcontainter{
-  position : abosolute;
-  background: url(images/camra.gif) no-repeat center 100px;
-  background-size: 400px auto;
-  position: relative;
-  padding-top: 100px;
-  background-color: transparent;
+.top-containter{
+
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 
 }
 
@@ -98,12 +154,18 @@ p{
   Height 70%;
 }
 
-.middlecontainter{
+.middle-container{
+  filter: alpha(opacity=50);
+  width: 100%;
+
+  #894D42;
   padding-top: 30px;
   padding-bottom: 20px;
+
 }
 
-.bottomcontainter{
+.bottomcon-tainter{
+
   padding-top: 30px;
   padding-bottom: 20px;
 }
