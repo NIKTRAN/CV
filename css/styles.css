@@ -1,41 +1,114 @@
 
+.top-containter{
+margin-bottom: 50px;
+}
+
+.bg-box{
+  width: 100%;
+  height: 0px;
+  font-size: 2rem;
+  z-index: 1;
+}
+.bg-box.yell{
+  height: 100px;
+  position: relative;
+  opacity: 0.50;
+
+  background-color: #E97F45;
+}
+
+.middle-container.moveup1k{
+  position: relative;
+  top: -1000px;
+  z-index: 3;
+}
+
+.bg-box.red{
+  height: 1000px;
+  position: relative;
+  opacity: 0.50;
+
+  background-color: #894D42;
+}
+
+
+.menu-bar{
+    top: -100px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  padding: 32px 0 32px 0;
+  z-index: 3;
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+.menu-bar.items {
+  text-align: center;
+  top: 0;
+  padding: 32px 9% 32px 9%;
+  height: auto;
+  width: auto;
+}
+
+.menu-bar:hover {
+  font-size: 54px;
+  padding: 19.6px 0 19.6px 0;
+  z-index: 3;
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
 
 
 h1{
-  font-family: Another Typewriter, sans-serif;
-  display: ;
-
-
-  font-style:;
+  font-family: Courier New, Courier, monospace;
   color: #E4D2C8;
   letter-spacing: 10px;
   width: 70%;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0 auto 0;
   border: 0 0 0 0;c
   padding: 0 0 0 0;
 }
 
 
+
+
+
+.wel01{
+  padding: 0 0 0 0;
+  vertical-align: top;
+  height: 30px;
+}
+
 .wel{
   vertical-align: top;
   margin: 0 auto 0;
-  font-size: 16rem;
+  font-size: 13rem;
   text-align: center;
+  padding: 0 0 0 0;
 }
 
 
 h3{
-  padding: 0 0 0 0;
+  padding: 0 auto 0 auto;
   border: 0 0 0 0;
   padding-top: 20px;
   font-size:20px;
   color: #E4D2C8;
   letter-spacing: 5px;
-  font-family: Another Typewriter, sans-serif;
+  font-family: Courier New, Courier, monospace;
   width: 50%;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0 auto;
 
 
@@ -45,14 +118,19 @@ h3{
 h2{
   color: #E4D2C8;
   letter-spacing: 5px;
-  font-family: Another Typewriter, sans-serif;
+  font-family: Courier New, Courier, monospace;
   width: 50%;
-  font-weight: normal;
-  margin: 0 auto;
+  font-weight: bold;
+  margin: 20px auto 20px;
 
 }
 
+
 body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
   text-align: center;
   font-family: Courier New, Courier, monospace;
   font-weight: bold;
@@ -62,7 +140,6 @@ body{
 }
 
 p{
-  font-style:bold;
   font-size: 25px;
   width: 50%;
   margin-left: auto;
@@ -73,6 +150,8 @@ p{
 }
 
 a{
+
+  margin-top: 40px;
   color: #E4D2C8;
   text-decoration:none;
 }
@@ -80,7 +159,7 @@ a{
 .footer-link{
   color: #E4D2C8;;
   text-decoration:none;
-  margin: 30px 10px auto 10px;
+  margin: 00px 00px auto 0px;
 }
 
 
@@ -132,12 +211,7 @@ img{
 .stuff{
   text-decoration: underline;
 }
-.top-containter{
 
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-
-}
 
 .skills{
   text-align: left;
@@ -146,12 +220,12 @@ img{
 
 .TN{
   width: 50%;
-  Height 50%;
+  Height: 50%;
 }
 
 .TN:hover{
-  width: 70%;
-  Height 70%;
+  width: 60%;
+  Height: 60%;
 }
 
 .middle-container{
@@ -168,12 +242,6 @@ img{
 
   padding-top: 30px;
   padding-bottom: 20px;
-}
-
-.topcloud{
-  position: absolute;
-  right: 300px;
-  top: 50px;
 }
 
 .bottomcloud{
@@ -193,7 +261,11 @@ img{
 
 
 .btn {
-    padding-bottom: 20px;  background: #DA0037;
+  width: 10%;
+  Height: auto;
+  padding-top: 10px;
+    padding-bottom: 10px;
+     background: #DA0037;
   background-image: -webkit-linear-gradient(top, #DA0037, #DA0037);
   background-image: -moz-linear-gradient(top, #DA0037, #DA0037);
   background-image: -ms-linear-gradient(top, #DA0037, #DA0037);
@@ -207,6 +279,7 @@ img{
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin: 10px auto 20px auto;
 }
 
 .btn:hover {
