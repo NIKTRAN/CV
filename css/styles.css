@@ -1,72 +1,73 @@
-
-.top-containter{
-margin-bottom: 50px;
+html{
+  scroll-behavior: smooth;
 }
 
-.bg-box{
+.top-containter{
+  height: auto;
+  margin: 0 0 110px 0 ;
+}
+
+.box-shape{
   width: 100%;
   height: 0px;
   font-size: 2rem;
   z-index: 1;
 }
-.bg-box.yell{
-  height: 100px;
-  position: relative;
-  opacity: 0.50;
 
-  background-color: #E97F45;
-}
-
-.middle-container.moveup1k{
-  position: relative;
-  top: -1000px;
+.box-shape.line{
+  height: 1px;
   z-index: 3;
 }
 
-.bg-box.red{
-  height: 1000px;
-  position: relative;
-  opacity: 0.50;
-
-  background-color: #894D42;
+.box-shape.line.white{
+  margin: 60px auto auto auto;
+  width: 35%;
+  float: center;
+  background-color: #E4D2C8;
 }
-
 
 .menu-bar{
-    top: -100px;
+  height: 15%;
   position: relative;
   width: 100%;
-  height: auto;
+
   font-size: 2rem;
-  padding: 32px 0 32px 0;
+  padding: 0 0 0 0;
   z-index: 3;
-  margin: 0 auto 0 auto;
+  margin: 0 32px 0 auto;
+
 }
 
+.menu-bar.yell{
+  position: relative;
+  background-color: rgba(233, 127, 69, 0.6);
+  margin-bottom: 100px;
 
+}
 
 
 .menu-bar.items {
   text-align: center;
   top: 0;
-  padding: 32px 9% 32px 9%;
-  height: auto;
+  padding: 32px 6% 32px 6%;
+  height: 100px;
+  line-height: 100px;
   width: auto;
+
 }
+
+menu-bar.items:hover {
+line-height: 100px;
+}
+
 
 .menu-bar:hover {
-  font-size: 54px;
-  padding: 19.6px 0 19.6px 0;
+  line-height: 90px;
+  font-size: 50px;
+  padding: auto 3% auto 3%;
   z-index: 3;
-  margin: 0 auto 0 auto;
+
 }
-
-
-
-
-
-
-
 
 h1{
   font-family: Courier New, Courier, monospace;
@@ -85,23 +86,25 @@ h1{
 
 
 .wel01{
-  padding: 0 0 0 0;
+  margin-bottom: 10px;
   vertical-align: top;
   height: 30px;
 }
 
 .wel{
   vertical-align: top;
-  margin: 0 auto 0;
+  margin: 0 auto 0 auto;
   font-size: 13rem;
   text-align: center;
-  padding: 0 0 0 0;
+  padding: 0 0 10px 0;
 }
 
 
 h3{
+  border-bottom-style: solid;
   padding: 0 auto 0 auto;
-  border: 0 0 0 0;
+  border-color: #E4D2C8;
+  border-bottom-width: thin;
   padding-top: 20px;
   font-size:20px;
   color: #E4D2C8;
@@ -113,16 +116,18 @@ h3{
 
 
 
+
 }
 
 h2{
+  font-size: 2rem;
   color: #E4D2C8;
   letter-spacing: 5px;
   font-family: Courier New, Courier, monospace;
   width: 50%;
   font-weight: bold;
-  margin: 20px auto 20px;
-
+  margin: 0px auto 0px;
+  padding: 0 0 0 0;
 }
 
 
@@ -140,11 +145,13 @@ body{
 }
 
 p{
+  font-family: Consolas;
   font-size: 25px;
+  font-weight: lighter;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   color: #BD9FB8;
 
 }
@@ -170,6 +177,7 @@ a{
   width: 50%;
   font-size: 3rem;
   font-weight: normal;
+  padding: 100px 0 100px 0;
   margin: 0 auto  30px auto;
 }
 
@@ -178,13 +186,20 @@ a{
 #E4D2C8
 #BD9FB8
 #E97F45
+
+.contents{
+  align-content: center;
+  width: 70%;
+  position: 0 15% 0 15%;
+}
 .red {
-    outline: 100px solid rgba(255, 0, 0, 0.5) !important;
+
+    background-color:rgba(255, 0, 0, 0.3) !important;
     outline-offset: -100px;
     overflow: hidden;
     position: relative;
-    height: 200px;
-    width: 200px;
+
+
 }
 
 img{
@@ -192,7 +207,7 @@ img{
 }
 
 .vid {
-    filter:  contrast(33%) invert(0%) sepia(93%) saturate(260%) hue-rotate(178deg) brightness(30%) ;
+  filter:  contrast(33%) invert(0%) sepia(93%) saturate(260%) hue-rotate(178deg) brightness(30%) ;
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -208,12 +223,15 @@ img{
 
 .camra{
 6}
+
+
 .stuff{
   text-decoration: underline;
 }
 
 
 .skills{
+  padding-top: 100px;
   text-align: left;
 }
 
@@ -226,20 +244,24 @@ img{
 .TN:hover{
   width: 60%;
   Height: 60%;
+  box-shadow: 10px 10px 10px 1px rgba(33,33,33,1);
 }
 
-.middle-container{
-  filter: alpha(opacity=50);
+.middle-container{0
+
   width: 100%;
 
-  #894D42;
+  background-color: ;
   padding-top: 30px;
   padding-bottom: 20px;
 
 }
+.blur{
+
+  backdrop-filter: blur(10px);
+}
 
 .bottomcon-tainter{
-
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -251,9 +273,6 @@ img{
   padding-bottom: 20px
 }
 
-.profile{
-
-}
 .contact-me{
   padding-bottom: 30px;
 }
